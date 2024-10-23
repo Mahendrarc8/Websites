@@ -1,0 +1,89 @@
+/* Navigation bar styling */
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #444;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  display: block;
+}
+nav ul li a:hover {
+  background-color: #09090c;
+  color: #fff;
+}
+
+header h1 {
+  text-align: center;
+}
+
+body img {
+  height: auto;
+  width: 50%;
+  max-width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Global body styling */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  display: block;
+  margin: 3em auto;
+  max-width: 80%;
+  text-align: left;
+  background-color: #ffffff;
+  border: 1px solid #d8d8d8;
+  padding: 4em;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+body blockquote {
+  font-style: italic;
+  font-size: large;
+}
+.list-books li a {
+  color: black;
+}
+.list-books li a:hover {
+  color: darkblue;
+}
+
+.video-content {
+  text-align: center;
+  border: none;
+}
+figcaption {
+  font-size: large;
+  font-style: oblique;
+  color: black;
+  text-align: center;
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+}
